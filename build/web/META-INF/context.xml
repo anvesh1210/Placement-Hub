@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/TNP_App">
+    
+    <Resource name="jdbc/TNPDB" auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="50" maxIdle="20" maxWaitMillis="10000"
+          username="TNPAPP" password="TNP123"
+          driverClassName="oracle.jdbc.driver.OracleDriver"
+          url="jdbc:oracle:thin:@localhost:1522:XE"
+          validationQuery="SELECT 1 FROM DUAL"
+          testOnBorrow="true"
+          removeAbandonedOnBorrow="true"
+          removeAbandonedTimeout="60"/>
+
+    
+</Context>

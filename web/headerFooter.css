@@ -1,0 +1,361 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Jul, 2025, 9:05:50 PM
+    Author     : DELL
+*/
+/*:root {
+  --primary-blue: #0066cc;
+  --secondary-blue: #0080e6;
+  --light-blue: #e6f3ff;
+  --lighter-blue: #f0f8ff;
+  --dark-blue: #004d99;
+  --text-dark: #2c3e50;
+  --text-muted: #6c757d;
+  --border-light: #e1e5e9;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+}
+
+ ===============================
+   HEADER STYLES
+   =============================== 
+.navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue) !important;
+}
+
+.logo-container {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-blue);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-blue) !important;
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+ Navigation Icon Colors 
+.nav-icon.quiz {
+  background: #007bff;
+}
+
+.nav-icon.pdf {
+  background: #28a745;
+}
+
+.nav-icon.notes {
+  background: #ffc107;
+}
+
+.nav-icon.coding {
+  background: #6f42c1;
+}
+
+.nav-icon.communication {
+  background: #e83e8c;
+}
+
+.nav-icon.notes i {
+  color: #212529;
+}
+
+ Dropdown Menu Styles (Shared) 
+.dropdown-menu {
+  min-width: 250px;
+  border-radius: 12px;
+  padding: 0.5rem 0;
+  margin-top: 8px;
+}
+
+.dropdown-header {
+  padding: 1rem 1.25rem;
+  background: var(--light-blue);
+  margin: 0 0 0.5rem 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--light-blue);
+  border-radius: 0;
+}
+
+.dropdown-item.text-danger:hover {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545 !important;
+}
+
+ Profile Avatars 
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.profile-avatar-small {
+  width: 32px;
+  height: 32px;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+.profile-avatar i {
+  font-size: 1rem;
+}
+
+.faculty-dashboard .profile-avatar i {
+  font-size: 1rem;
+}
+
+ ===============================
+   FOOTER STYLES
+   =============================== 
+.footer {
+  background-color: var(--light-gray);
+  border-top: 1px solid var(--border-light);
+}
+
+.footer h5 {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.contact-info i,
+.quick-links a:hover {
+  color: var(--primary-blue) !important;
+}
+
+.quick-links a {
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  text-decoration: underline !important;
+}
+
+ ===============================
+   RESPONSIVE ADJUSTMENTS
+   =============================== 
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding: 0.5rem !important;
+  }
+
+  .profile-avatar {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  .dropdown-menu {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+}*/
+/* =================================
+   HEADER & FOOTER STYLES
+   ================================= */
+
+/* Navigation Bar Styles */
+.navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue) !important;
+}
+
+.logo-container {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-blue);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-blue) !important;
+}
+
+/* Profile Avatar Styles (Header Dropdown) */
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.profile-avatar-small {
+  width: 32px;
+  height: 32px;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  min-width: 250px;
+  border-radius: 12px;
+  padding: 0.5rem 0;
+  margin-top: 8px;
+}
+
+.dropdown-header {
+  padding: 1rem 1.25rem;
+  background: var(--light-blue);
+  margin: 0 0 0.5rem 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--light-blue);
+  border-radius: 0;
+}
+
+.dropdown-item.text-danger:hover {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545 !important;
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+/* Faculty Navigation Specific */
+.faculty-nav .nav-link i {
+  font-size: 1rem;
+}
+
+.faculty-dashboard .profile-avatar i {
+  font-size: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: var(--light-gray);
+  border-top: 1px solid var(--border-light);
+}
+
+.footer h5 {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.contact-info i,
+.quick-links a:hover {
+  color: var(--primary-blue) !important;
+}
+
+.quick-links a {
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  text-decoration: underline !important;
+}
+
+/* Responsive Styles for Header/Footer */
+@media (max-width: 768px) {
+  .profile-avatar {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  .dropdown-menu {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.75rem 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .logo-container {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo-container i {
+    font-size: 1.25rem;
+  }
+}
+
+/* Print Styles for Header/Footer */
+@media print {
+  .navbar,
+  .footer {
+    display: none !important;
+  }
+}
